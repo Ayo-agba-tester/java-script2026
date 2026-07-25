@@ -1,0 +1,11 @@
+let friends = [
+    "Moses",
+    "Sarah",
+    "Alaga",
+    "Grace",
+    "Toba"
+]
+
+let bestFriend = friends[0]
+
+console.log(bestFriend)

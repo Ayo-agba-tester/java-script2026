@@ -1,0 +1,9 @@
+let friends = [
+    "Moses",
+    "Sarah",
+    "Alaga",
+    "Grace",
+    "Toba"
+]
+
+console.log(friends)
