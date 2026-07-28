@@ -1,0 +1,17 @@
+let books = {
+    title: "Hello world",
+    description: "Hello world, this is my new book.",
+    numberOfPages: 308,
+    author: "Jose man",
+    reading: true,
+
+    toggleReadingStatus: function () {
+        this.reading = !this.reading;
+    }
+};
+
+console.log("Before:", books.reading);
+
+books.toggleReadingStatus();
+
+// console.log("After:", books.reading);
