@@ -1,0 +1,29 @@
+let books = [
+    {
+        title: "Hello world",
+        description: "Hello world, this is my new book.",
+        numberOfPages: 308,
+        author: "Jose man",
+        reading: true
+    },
+    {
+        title: "JavaScript Basics",
+        description: "An introduction to JavaScript programming.",
+        numberOfPages: 250,
+        author: "John Doe",
+        reading: false
+    },
+    {
+        title: "Learning Arrays",
+        description: "A guide to understanding arrays in JavaScript.",
+        numberOfPages: 180,
+        author: "Jane Smith",
+        reading: true
+    }
+];
+
+for (let i = 0; i < books.length; i++) {
+    if (books[i].reading === false) {
+        console.log(books[i]);
+    }
+}
