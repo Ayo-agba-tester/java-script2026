@@ -1,0 +1,9 @@
+let books = {
+    title: "Hello world",
+    description: "Hello world, this is my new book.",
+    numberOfPages: 308,
+    author: "Jose man",
+    reading: true
+};
+
+console.log(books)
