@@ -1,4 +1,4 @@
-let number = 80;
+let number = 83;
 
 if (number % 2 === 0) {
     console.log(number + " is even");
