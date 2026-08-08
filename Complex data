@@ -23,7 +23,7 @@ let books = [
 ];
 
 for (let i = 0; i < books.length; i++) {
-    if (books[i].reading === false) {
+    if (books[i].reading === true) {
         console.log(books[i]);
     }
 }

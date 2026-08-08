@@ -1,0 +1,5 @@
+let friends = ["John", "David", "Sarah", "Michael", "Ajoke", "Grace"];
+
+friends.sort();
+
+console.log(friends);

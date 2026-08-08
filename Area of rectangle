@@ -3,4 +3,4 @@ function calculateAreaOfRectangle(length, width) {
     console.log(area);
 }
 
-calculateAreaOfRectangle(10, 5);
+calculateAreaOfRectangle(12, 8);

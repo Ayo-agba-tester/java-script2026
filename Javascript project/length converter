@@ -1,0 +1,8 @@
+function convertLength(meters) {
+    let kilometers = meters / 1000;
+    return kilometers;
+}
+
+let result = convertLength(5000);
+
+console.log(result);

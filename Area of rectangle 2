@@ -3,6 +3,6 @@ function calculateAreaOfRectangle(length, width) {
     return area;
 }
 
-let result = calculateAreaOfRectangle(10, 5);
+let result = calculateAreaOfRectangle(12, 8)
 
-console.log(result);
+console.log(result)
